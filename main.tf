@@ -14,6 +14,6 @@ resource "aws_s3_bucket" "s3bucsent" {
 }
 resource "aws_s3_bucket_public_access_block" "s3bucsent" {
   bucket = aws_s3_bucket.s3bucsent.id
-  block_public_acls   = true
+  block_public_acls   = false
 
 }
