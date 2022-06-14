@@ -1,8 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIAZ7ETVKHVCSOTZROL"
-  secret_key = "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"
+
 }
 
 resource "aws_s3_bucket" "s3bucsent" {
