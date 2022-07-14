@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3bucsent" {
-  bucket = "s3bucsent"
+  bucket = "s3bucsent123"
   tags = {
     Name        = "My s3buc"
     Environment = "Trial"
