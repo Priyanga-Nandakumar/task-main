@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "Priyanga"
+    organization = "TerraTrial"
 
     workspaces {
       name = "s3test"
